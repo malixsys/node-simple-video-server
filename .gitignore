@@ -1,4 +1,5 @@
 lib-cov
+iis.js.logs/
 *.seed
 *.log
 *.csv
@@ -6,9 +7,20 @@ lib-cov
 *.out
 *.pid
 *.gz
+.DS_Store
 
+web.config
 pids
 logs
 results
-
+*.db
+*.txt
+modulus*.zip
+node_modules
 npm-debug.log
+.idea
+.c9revisions
+.nide
+.elasticbeanstalk
+config.coffee
+*.json

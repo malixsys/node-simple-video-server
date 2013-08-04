@@ -1,0 +1,28 @@
+{
+  "name": "video",
+  "version": "0.1.0",
+  "description": "node-simple-video-server ========================",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://malixsys@github.com/malixsys/node-simple-video-server.git"
+  },
+  "author": "",
+  "license": "Apache 2",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/malixsys/node-simple-video-server/issues"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "fluent-ffmpeg": "1,5.x",
+    "mime": "~1.2.10"
+  }
+}
